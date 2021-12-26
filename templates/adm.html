@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/adm.css') }}" />
+    <title>DoogleInc</title>
+</head>
+<body>
+    
+    <form id="fm" action="/admc" method="post">
+        <input type="text" name="domain" id="domain" placeholder="domain"></input>
+        <input type="text" name="port" id="port" placeholder="port"></input>
+    
+        <button type="submit">Change</button>
+    </form>
+
+</body>
+</html>
